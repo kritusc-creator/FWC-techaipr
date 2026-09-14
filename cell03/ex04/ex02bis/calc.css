@@ -1,0 +1,11 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 100px;
+}
+
+input,
+select {
+    padding: 10px;
+    font-size: 18px;
+}
