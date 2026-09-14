@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background-color: #eeeeee;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    background-color: #283583;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #dddddd;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
